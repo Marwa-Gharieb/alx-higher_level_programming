@@ -1,3 +1,4 @@
 #!/usr/bin/python3
-for num in range(0, 99):
-    print('{:d} = {:s}'.format(num, hex(num)))
+
+for theNumber in range(99):
+    print("{} = {}".format(theNumber, hex(theNumber)))
