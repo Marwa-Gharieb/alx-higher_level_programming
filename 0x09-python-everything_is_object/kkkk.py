@@ -1,6 +1,4 @@
-s1 = "Best School"
-s2 = "Best School"
-#print(s1 is s2)
-s1[0] = 'k'
-print(s1)
-print(s2)
+l1 = [1, 2, 3]
+l2 = l1
+l1 = l1 + [4]
+print(l2)
