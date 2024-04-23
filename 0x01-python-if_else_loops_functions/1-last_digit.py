@@ -6,11 +6,10 @@ lg = n[-1]
 str(lg)
 
 if (number > 5):
-    if ( number >= 0):
+    if (number >= 0):
         print ("Last digit of " + n + " is " + lg + " and is greater than 5")
-    elif ( number < 0):
-        print ("Last digit of " + n + " is -" + lg + " and is greater than 5")
-        
+    elif (number < 0):
+        print ("Last digit of " + n + " is -" + lg + " and is greater than 5")      
 elif (number == 0):
     print ("Last digit of " + n + " is " + lg + " and is 0")
 elif (number < 6 and not 0):
