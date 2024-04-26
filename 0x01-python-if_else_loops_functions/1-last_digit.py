@@ -2,18 +2,17 @@
 import random
 number = random.randint(-10000, 10000)
 n = str(number)
-lg = n[-1]
-slg = str(lg)
+l = n[-1]
+#sign = n[0]
+d =int(l)
 
-if (lg > 5):
-    if (number >= 0):
-        print("Last digit of " + n + " is " + slg + " and is greater than 5")
-    elif (number < 0):
-        print("Last digit of " + n + " is -" + slg + " and is greater than 5")      
-elif (lg == 0):
-    print("Last digit of " + n + " is " + slg + " and is 0")
-elif (lg < 6 and not 0):
-    if (number > 0):
-        print("Last digit of " + n + " is " + slg + " and is less than 6 and not 0")
-    elif (number < 0):
-        print("Last digit of " + n + " is -" + slg + " and is less than 6 and not 0")
+if (d > 5 and number >= 0):
+    print("Last digit of " + n + " is " + l + " and is greater than 5")
+elif (d > 5 and number < 0):
+    print("Last digit of " + n + " is -" + l + " and is less than 6 and not 0")      
+elif (d == 0):
+    print("Last digit of " + n + " is " + l + " and is 0")
+elif (d < 6 and d != 0 and number > 0):
+    print("Last digit of " + n + " is " + l + " and is less than 6 and not 0")
+elif (d < 6 and d != 0 and  number < 0):
+    print("Last digit of " + n +  " is -" + l + " and is less than 6 and not 0")
