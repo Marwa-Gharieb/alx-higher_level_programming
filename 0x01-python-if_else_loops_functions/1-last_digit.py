@@ -15,3 +15,4 @@ elif (d < 6 and d != 0 and number > 0):
     print("Last digit of " + n + " is " + l + " and is less than 6 and not 0")
 elif (d < 6 and d != 0 and  number < 0):
     print("Last digit of " + n +  " is -" + l + " and is less than 6 and not 0")
+
