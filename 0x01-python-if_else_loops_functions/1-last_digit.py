@@ -3,7 +3,6 @@ import random
 number = random.randint(-10000, 10000)
 n = str(number)
 l = n[-1]
-#sign = n[0]
 d =int(l)
 
 if (d > 5 and number >= 0):
