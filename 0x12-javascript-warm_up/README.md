@@ -1,1 +1,1 @@
-start with java
+start with java script
