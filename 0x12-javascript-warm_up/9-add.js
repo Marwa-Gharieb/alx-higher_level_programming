@@ -3,8 +3,8 @@
 function add(a, b){
     return a + b;
 }
-let a = Number(process.argv[2]);
-let b = Number(process.argv[3]);
+let a = parseInt(process.argv[2]);
+let b = parseInt(process.argv[3]);
 
 if(!isNaN(a) && !isNaN(b)){
     let x = add(a, b)
