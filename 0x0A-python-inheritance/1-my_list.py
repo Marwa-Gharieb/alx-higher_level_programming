@@ -2,11 +2,7 @@
 """"Mylist inherts from list"""
 
 
-class list:
+class MyList(list):
     def print_sorted(self):
-        list = []
-        return sorted(list)
-
-
-class Mylist(list):
-    pass
+        list = self.sort()
+        return list
