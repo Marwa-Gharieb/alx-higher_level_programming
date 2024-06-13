@@ -1,8 +1,15 @@
 #!/usr/bin/python3
-""""Mylist inherts from list"""
+
+"""MyList module"""
 
 
 class MyList(list):
+    """MyList class"""
+
+    def __init__(self):
+        """initialization and inheritance"""
+        super().__init__()
+
     def print_sorted(self):
-        list = self.sort()
-        return list
+        """print sorted list"""
+        print(sorted(self))
