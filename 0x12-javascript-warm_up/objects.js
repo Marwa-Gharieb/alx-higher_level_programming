@@ -1,6 +1,6 @@
-let car = {
-    name:'BMW',
-    model:2020,
-    price:500000
+const car = {
+  name: 'BMW',
+  model: 2020,
+  price: 500000
 };
-console.log(car.name)
+console.log(car.name);
