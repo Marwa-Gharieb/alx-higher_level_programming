@@ -10,5 +10,5 @@ if (!isNaN(a) && !isNaN(b)) {
   const x = add(a, b);
   console.log(x);
 } else {
-  console.log('isNaN');
+  console.log('NaN');
 }
