@@ -1,13 +1,16 @@
 #!/usr/bin/node
 
-const args = process.argv.slice(2);
+const inputArgs = process.argv.slice(2, ).map(arg => parseInt(arg))
 
-function calc (...args) {
-  const result = Math.max(...args);
-  console.log(result);
+function SMax(...args){
+  if ( args.length === 0 || args.length === 1){
+    console.log(1)
+  }
+  else{
+    args.sort((a,b) => a-b);
+    console.log(args[args.length -2])
+  }
 }
-if (args.length == 0 || args.length == 1) {
-  console.log(0);
-} else {
-  calc(...args);
-}
+
+SMax(...inputArgs)
+
