@@ -1,8 +1,6 @@
 #!/usr/bin/node
 const list = require('./100-data.js').list;
-const multipledList = [];
-for (let i = 0; i < list.length; i++) {
-  multipledList.push(list[i] * i);
-}
+const multipliedList = list.map((value, index) => (value * index));
+
 console.log(list);
-console.log(multipledList);
+console.log(multipliedList);
